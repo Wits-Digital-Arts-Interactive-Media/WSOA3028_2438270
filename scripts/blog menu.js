@@ -1,9 +1,10 @@
 const menuItems= [
-    // {name:"Home", href:"index.html"},
-    {name:"Blog Posts", href:"blogs/index.html"},
-    {name:"Essays", href:"essays/index.html"},
-    {name:"Portfolio", href:"portolio.html"},
-    {name:"Design Section", href:"Design Section/index.html"},
+    {name:"Home", href:"../index.html"},
+    {name:"Blog Post 1", href:"blog-1.html"},
+    {name:"Blog Post 2", href:"blog-2.html"},
+    {name:"Blog Post 3", href:"blog-3.html"},
+    {name:"Blog Post 4", href:"blog-4.html"},
+    {name:"Blog Post 5", href:"blog-5.html"},
 ]
 
 export function initialise(currentPage){
@@ -12,7 +13,7 @@ export function initialise(currentPage){
     const li=document.createElement("li")
     for(let menuItem of menuItems){
         const li=document.createElement("li")
-        if(currentPage !=menuItem.name){
+        if(currentPage =menuItem.name){
             const a=document.createElement("a")
             a.innerText=menuItem.name
             a.setAttribute("href", menuItem.href)
@@ -23,4 +24,3 @@ export function initialise(currentPage){
     nav.appendChild(ul)
 }
 
-//initialise()
