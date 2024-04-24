@@ -2,7 +2,7 @@ const menuItems= [
     // {name:"Home", href:"index.html"},
     {name:"Blog Posts", href:"blogs/index.html"},
     {name:"Essays", href:"essays/index.html"},
-    {name:"Portfolio", href:"portolio.html"},
+    {name:"Portfolio", href:"/portfolio/index.html"},
     {name:"Design Section", href:"Design Section/index.html"},
 ]
 
