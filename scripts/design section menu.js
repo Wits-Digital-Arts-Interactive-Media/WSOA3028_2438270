@@ -1,9 +1,5 @@
 const menuItems= [
-    // {name:"Home", href:"index.html"},
-    {name:"Blog Posts", href:"blogs/index.html"},
-    {name:"Essays", href:"essays/index.html"},
-    {name:"Portfolio", href:"portfolio/index.html"},
-    {name:"Design Section", href:"/Design Section/index.html"},
+    {name:"Wireframes 1", href:"initial wireframes.html"},
 ]
 
 export function initialise(currentPage){
@@ -22,5 +18,3 @@ export function initialise(currentPage){
     }
     nav.appendChild(ul)
 }
-
-//initialise()
