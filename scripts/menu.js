@@ -3,7 +3,7 @@ const menuItems= [
     {name:"Blog Posts", href:"blogs/index.html"},
     {name:"Essays", href:"essays/index.html"},
     {name:"Portfolio", href:"portfolio/index.html"},
-    {name:"Design Section", href:"Design Section/index.html"},
+    {name:"Design section", href:"Design Section/index.html"},
 ]
 
 export function initialise(currentPage){
