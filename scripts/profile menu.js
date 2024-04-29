@@ -1,10 +1,5 @@
 const menuItems= [
-    // {name:"Home", href:"index.html"},
-    {name:"Blog Posts", href:"blogs/index.html"},
-    {name:"Essays", href:"essays/index.html"},
-    {name:"Portfolio", href:"portfolio/index.html"},
-    {name:"Design section", href:"Design Section/index.html"},
-    {name:"Profile", href:"profile/index.html"},
+    {name:"Home", href:"../index.html"},
 ]
 
 export function initialise(currentPage){
@@ -13,7 +8,7 @@ export function initialise(currentPage){
     const li=document.createElement("li")
     for(let menuItem of menuItems){
         const li=document.createElement("li")
-        if(currentPage !=menuItem.name){
+        if(currentPage =menuItem.name){
             const a=document.createElement("a")
             a.innerText=menuItem.name
             a.setAttribute("href", menuItem.href)
