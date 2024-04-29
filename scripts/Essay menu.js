@@ -1,6 +1,6 @@
 const menuItems= [
-    {name:"Home", href:"../index.html"},
-    {name:"Wireframes 1", href:"initial wireframes.html"},
+    {name:"Home", href:"index.html"},
+    {name:"Essay 1", href:"essay1.html"},
 ]
 
 export function initialise(currentPage){
