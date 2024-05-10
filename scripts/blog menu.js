@@ -7,6 +7,7 @@ const menuItems= [
     {name:"Blog Post 5", href:"blog-5.html"},
     {name:"Blog Post 6", href:"blog-6.html"},
     {name:"Blog Post 7", href:"blog-7.html"},
+    {name:"Blog Post 8", href:"blog-8.html"},
 ]
 
 export function initialise(currentPage){
