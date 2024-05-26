@@ -7,36 +7,78 @@
     <meta name="description" content="2438270 Interactive Media Webpge">
     <meta name="author" content="Brad Simbizi"> 
     <title>Smartphone Wireframes Version 1</title>
+    <link rel="stylesheet" href="../css/MainStyle.css">
 </head>
 
 <body>
     <header>
-        <h1>Brad's Design Section</h1>
-        <h2>Smartphone wireframes 1</h2>
-        <p>Iteration 1 Wireframes for the smartphone website</p>
         <nav>
             
         </nav>
     </header>
 
     <main>
-        <article>
-        <p>
-            Here are my 1st iteration wireframes for the various pages I'll have on the website for smartphones. I have tried to list some advantages and disadvantages for each layout.
-        </p>
+        <article class="wrapper-main">
+            <h1 class="p-name">Smartphone Wireframes Version 1</h1>
+            <p>
+                by
+                <a class="p-author h-card" href="/profile/index.html">Brad Simbizi</a>
+            </p>
+            <p class="p-summary">Iteration 1 Wireframes for smartphones:
+                <br>
+                Here are my 1st iteration wireframes for the various pages I'll have on the website for smartphones. I have tried to list some advantages and disadvantages for each layout.
+            </p>
+
+            <h2>Smartphone home page idea 1:</h2>
+            <img src="../Images/Website Wireframe 26.png" alt="Home page wireframe 1" title="Home page wireframe 1" width="200">
+            <p>
+                This homepage works if you look at its most basic function. The main issue is that it is a bit cluttered. Having all of the buttons fill up the screen can make it uncomfortable to navigate. The user might select something unintentionally because of the size and position of the buttons.
+            </p>
+
+            <h2>Smartphone Home page idea 2:</h2>
+            <img src="../Images/Website Wireframe 27.png" alt="Home page wireframe 2" title="Home page wireframe 2" width="200">
+            <p>
+                This layout is a bit cleaner than the 1st one. The user can swipe to the left to scroll through the options. Accidentally pressing 
+                buttons might still be an issue.
+            </p>
+
+            <h2>Smartphone Home page idea 3:</h2>
+            <img src="../Images/Website Wireframe 28.png" alt="Home page wireframe 3" title="Home page wireframe 3" width="450">
+            <p>
+                This layout is inspired by Natalie Young’s website on mobile devices. The user can click on the 3 bars in the top left corner that will bring up a sidebar type menu. From there, users are able to navigate to my various pages. They can also hit the arrow to close the menu. 
+            </p>
+
+            <h2>Smartphone Blog page idea 1:</h2>
+            <img src="../Images/Website Wireframe 29.png" alt="Blog page wireframe 1" title="Blog page wireframe 1" width="450">
+            <p>
+                This layout is a combination of Home page layout 2 and home page layout 3. The sidebar menu is still there as the main page to page navigation.
+            </p>
+            
+            <h2>Smartphone Essay page idea 1:</h2>
+            <img src="../Images/Website Wireframe 30.png" alt="Essay page wireframe 1" title="Essay page wireframe 1" width="450">
+            <p>
+                This layout continues throughout the remaining pages.
+            </p>
+
+            <h2>Smartphone Portfolio page idea 1:</h2>
+            <img src="../Images/Website Wireframe 31.png" alt="Portfolio page wireframe 1" title="Portfolio page wireframe 1" width="450">
+            <p>
+                Follows the same format.
+            </p>
+
+            <h2>Smartphone bio page idea 1:</h2>
+            <img src="../Images/Website Wireframe 32.png" alt="Profile page wireframe 1" title="Profile page wireframe 1" width="450">
+            <p>
+                On this page, I’ll have a small paragraph where I’ll have some random information about myself, as well as my intention with my website. In the space below it, I’ll provide my email or links to my social media pages. 
+            </p>
+            <br>
+            <button onclick="scrollToTop()">Scroll To Top</button>
         </article>
-        <div class="slider">
-            <button class="btn" onClick="prev()">&#10094</button>
-            <button class="btn" onClick="next()">&#10095</button>
-            <div class="img-box">
-                <img src="../Images/26th Wireframe.png" alt="Pictures of my 1st iteration smartphone Wireframe design." height="600"  class="slider-img"/>
-            </div>
-        </div>
     </main>
 
-    <script src="../scripts/Wireframe slide 3.js"></script>
-    <script type="module" >import{initialise} from "../scripts/back to main.js"
-        initialise("Home")</script>
+    <script src="../scripts/back to top.js"></script>
+    <script type="module" >import{initialiseBackToMain} from "../scripts/menu.js"
+        initialiseBackToMain("Home")</script>
     
 </body>
 </html>

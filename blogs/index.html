@@ -5,20 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="2438270 Interactive Media Webpge">
+    <meta name="description" content="Weekly Blog Posts main page">
     <meta name="author" content="Brad Simbizi"> 
-    <title>Brad's Blog Post Page</title>
+    <title>Blog Posts</title>
+    <link rel="stylesheet" href="../css/MainStyle.css">
 </head>
 
 <body>
     <header>
-        <h1>Brad's Website</h1>
-        <h2>Blogs Post</h2>
-        <p>My weekly blog posts. I analyse some readings and rant a little.</p>
         <nav>
                 
         </nav>
     </header>
+    <main>
+        <article>
+            <h1>Blog Posts</h1>
+            <p>
+                by
+                <a class="p-author h-card" href="/profile/index.html">Brad Simbizi</a>
+            </p>
+            <p class="p-summary">My weekly blog posts. I analyse some readings and rant a little.</p>
+        </article>
+    </main>
     
-    <script type="module" >import{initialise} from "../scripts/blog menu.js"
-    initialise("Home")</script>
+    <script type="module" >import{initialiseBlogs} from "../scripts/menu.js"
+        initialiseBlogs("Home")</script>
 </body>
