@@ -24,7 +24,7 @@ export function initialise(currentPage){
 }
 
 const BlogmenuItems= [
-    {name:"Home", href:"../index.html"},
+    {name:"Home", href:".../index.html"},
     {name:"Blog Post 1: Imagining the Internet", href:"blog-1.html"},
     {name:"Blog Post 2: Interaction and the www", href:"blog-2.html"},
     {name:"Blog Post 3: Interaction Design for the Web", href:"blog-3.html"},
