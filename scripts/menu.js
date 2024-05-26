@@ -24,7 +24,7 @@ export function initialise(currentPage){
 }
 
 const BlogmenuItems= [
-    {name:"Home", href:"index.html"},
+    {name:"Home", href:"../index.html"},
     {name:"Blog Post 1: Imagining the Internet", href:"blog-1.html"},
     {name:"Blog Post 2: Interaction and the www", href:"blog-2.html"},
     {name:"Blog Post 3: Interaction Design for the Web", href:"blog-3.html"},
@@ -73,7 +73,7 @@ export function initialiseBackToMain(currentPage){
 }
 
 const DesSectionmenuItems= [
-    {name:"Home", href:"index.html"},
+    {name:"Home", href:"../index.html"},
     {name:"Wireframes 1 - Desktop (version 1)", href:"wireframe1.html"},
     {name:"Wireframes 2 - Smartphones (version 1)", href:"wireframe2.html"},
     {name:"Wireframes 3 - Desktop (version 2)", href:"wireframe3.html"},
@@ -97,7 +97,7 @@ export function initialiseDesSection(currentPage){
 }
 
 const EssaymenuItems= [
-    {name:"Home", href:"index.html"},
+    {name:"Home", href:"../index.html"},
     {name:"Essay 1", href:"essay1.html"},
 ]
 
@@ -119,7 +119,7 @@ export function initialiseEssay(currentPage){
 }
 
 const PortmenuItems= [
-    {name:"Home", href:"index.html"},
+    {name:"Home", href:"../index.html"},
     {name:"Burger", href:"burger.html"},
     {name:"Bread", href:"bread.html"},
 ]
@@ -142,7 +142,7 @@ export function initialisePortfolio(currentPage){
 }
 
 const ProfilemenuItems= [
-    {name:"Home", href:"index.html"},
+    {name:"Home", href:"../index.html"},
 ]
 
 export function initialiseProfile(currentPage){
