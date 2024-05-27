@@ -28,18 +28,13 @@ span{
 .button{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-.pointer{
-    cursor:grab;
+.footer{
+    text-align: center;
 }
-
-/* .circleText{
-
-} */
-
-/* a{
-    
-} */
+.rowLinks{
+    display: flex;
+    flex-direction: row;
+}
 
 
 

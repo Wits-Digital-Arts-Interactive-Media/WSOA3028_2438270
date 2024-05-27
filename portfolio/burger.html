@@ -10,10 +10,7 @@
     <link rel="stylesheet" href="../css/MainStyle.css">
 </head>
 <body>
-
     <header>
-        <h1>Brad's Portfolio</h1>
-        <h2>Burger</h2>
         <nav>
 
         </nav>
@@ -21,6 +18,12 @@
     
 
     <main>
+        <h1>Burger</h1>
+        <p>
+            by
+            <a class="p-author h-card" href="../profile/index.html">Brad Simbizi</a>
+        </p>
+        <p class="p-summary">Nice Bunz</p>
         <article>
             <div class="slider">
                 <button class="btn" onClick="next()">&#10095</button>
@@ -31,8 +34,13 @@
             <script src="../scripts/burger slideshow.js"></script>
         </article>
     </main>
+    <footer class="footer">
+        Breakfast Kitchen
+        <br>
+        "Bread" Simbizi
+    </footer>
 
-    <script type="module" >import{initialiseBackToMain} from "../menu.js"
+    <script type="module" >import{initialiseBackToMain} from "../scripts/menu.js"
         initialiseBackToMain("Home")</script>
 </body>
 </html>

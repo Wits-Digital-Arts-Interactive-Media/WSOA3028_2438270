@@ -33,6 +33,7 @@ const BlogmenuItems= [
     {name:"Blog Post 6: Internet, Society and Design Justice", href:"blog-6.html"},
     {name:"Blog Post 7: The World in www", href:"blog-7.html"},
     {name:"Blog Post 8: Digital inequalities", href:"blog-8.html"},
+    {name:"Blog Post 9: Digital Coloniality / Introduction to CSS", href:"blog-9.html"},
 ]
 export function initialiseBlogs(currentPage){
     const nav=document.querySelector("header > nav")
