@@ -5,20 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="2438270 Interactive Media Webpge">
+    <meta name="description" content="Brad's website portfolio">
     <meta name="description" content="Weekly Blog Posts">
-    <meta name="author" content="Brad Simbizi">
+    <meta name="author" content="Brad Simbizi"> 
+    <meta name="Keywords" content=
+    "Brad, 
+    Brad Simbizi, 
+    Breakfast, Club, 
+    Breakfast Club, 
+    portfolio, 
+    blog">
     <title>Blog Post 9: Digital Coloniality / Introduction to CSS</title>
-    <link rel="stylesheet" href="../css/MainStyle.css">
+    <link rel="stylesheet" href="../css/homepage links.css">
+    <link rel="stylesheet" href="../css/FooterStyling.css">
+
+    <script type="application/Id+json">
+        {
+            "@content": "https://wits-digital-arts-interactive-media.github.io/WSOA3028_2438270/"
+            "@type": "portfolio website",
+            "headline": "Brad's portfolio Blog Posts",
+            "author":[{
+                "@type": "Person",
+                "name":"Brad Simbizi",
+                "url": "https://wits-digital-arts-interactive-media.github.io/WSOA3028_2438270/"
+            }]
+        }
+    </script>
 </head>
 <body>
     <header>
+        <img class="logo" src="../Images/frame0006.png" alt="Website logo" title="Portfolio website logo">
         <nav>
 
         </nav>
     </header>
 
     <main>
-        <article class="wrapper-main" class="h-entry">
+        <article class="article" class="h-entry">
             <h1 class="p-name">Blog Post 9: Digital Coloniality / Introduction to CSS</h1>
             <p>
                 by
@@ -28,40 +51,68 @@
                 <br>
                 For this week’s blog post, I reflect on my development process so far, and reflect on a reading.
             </p>
+            <br>
+            <br>
 
             <h2>What changes have you had to make to your website to incorporate JavaScript?</h2>
+            <br>
+
             <p>
                 To incorporate JavaScript, I made little changes. Mainly because the code I had implemented before would not interfere with the JavaScript. The main changes I had to do was remove the href links to the various pages and replace them with the script reference from the JavaScript nav bar. In the first version of the nav bar, inside the nav tags, I had 4 or 5 href tags that linked to the other pages, but once I added the JavaScript nav bar, I removed them as they were not necessary anymore. The JavaScript nav bar makes the navigation on the website more expandable as 1 script can be referenced in any html script. This is also a bonus for any other functions and features I want to implement. For example, I have used a slideshow to display some of my portfolio drawings and all my wireframes. With JavaScript, I can have 1 file that controls the slideshow function, and reference that script in the html pages of each wireframe iteration. Another feature I was planning on adding was the ability for users to drag and drop “ingredients” (the various pages in the form of cards or images or containers) into a pan (a drop zone that will open the page). This way I can incorporate a theme into the website and make the engagement more diegetic and interesting. Diegetic in the sense that my website will be food related. The best way to implement this is through JavaScript because of its expandability and flexibility. 
             </p>
+            <br>
 
             <h2>How does that help you streamline your interaction design?</h2>
+            <br>
+
             <p>
                 With JavaScript, its fairly evident that developers can program some very wacky features from the research I’ve done, and I am all for it. All these features can provide a more enjoyable interactive experience, regardless of how subjective the idea of what “fun” and “enjoyable” is. In my mind, I imagine an enjoyable browsing experience as something memorable. If users feel the urge to constantly visit your site, I feel like that’s a great sign. I think it is also very important to point out a voluntary revisit to the website. I find this important to mention because a lot of other developers added intentionally addictive features to their websites to force users to constantly revisit their sites. I want to present my website as is, and through my design and interactivity, encourage the user to continue to either engage with the website at the time, or encourage the user to visit the website over time. Using JavaScript will help improve the performance of website. This is important because I want to implement a lot of wacky features that might make the website slower, so using JavaScript would help mitigate this issue. The functionality of JavaScript will come in handy.  
             </p>
+            <br>
 
             <h2>Selected reading and reflection:</h2>
+            <br>
+
             <p>
                 <b>
                     Towards decolonising computational sciences-Abeba Birhane & Olivia Guest
                 </b>
             </p>
+            <br>
+
             <p>
                 This reading highlights something that is often overlooked, similar to my reflection of digital inequality. The idea that our pre-established frameworks, that we build so much on, education, technology, access to that technology, social perceptions, etc. are framed by extremely outdated and exclusionary frameworks. As Abeba Birhane and Olivia Guest mention, “realisation that the present-day system has inherited, and still enacts, hostile, conservative, and oppressive behaviours and principles towards women of colour”, as they referred to this as an important concept to tackle before moving on to potential strategies for decolonising computer sciences.
             </p>
+            <br>
+
             <p>
                 Old conservative, sexist, homophobic rhetoric peppers our social norms, and computer sciences always seemed like a realm where these sentiments would never permeate. But unfortunately, they do. As I will no doubt mention later on in the blog, the more we open the door of accessibility, not tokenism, the more inclusive the design of things are, because when one group of people dictate the state of everything, they design the world around them to solely cater for them. This results in systems, institutions, etc. built on very exclusionary beliefs.
             </p>
+            <br>
+
             <p>
                 Another important think to note is the emphasis on the impact black women have in this. How we must centralize women of colour in these conversations as they experience more intersectional issues. Women of colour in this department can prove an immensely detailed and thorough perspective. This extends beyond computer sciences as well. The idea of tokenism is also important to mention. As Birhane and Olivia Guest mention the need for active and respectful representation. Through this lens, the technology we interact with becomes “better”. By better, I simply mean more inclusive. 
             </p>
             <br>
+
             <button class="button" onclick="scrollToTop()">Scroll To Top</button>
         </article>
     </main>
-    <footer class="footer">
-        Breakfast Kitchen
-        <br>
-        "Bread" Simbizi
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="index.html">Blog</a></li>
+            <li><a href="../portfolio/index.html">Portfolio</a></li>
+            <li><a href="../Design Section/index.html">Design Section</a></li>
+            <li><a href="../profile/index.html">About</a></li>
+        </ul>
+        <p>2024 Brad Portfolio Website | All Rights Reserved</p>
     </footer>
     
     <script src="../scripts/back to top.js"></script>

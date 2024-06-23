@@ -5,22 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="2438270 Interactive Media Webpge">
+    <meta name="description" content="Brad's website portfolio">
     <meta name="description" content="Weekly Blog Posts">
     <meta name="author" content="Brad Simbizi"> 
+    <meta name="Keywords" content=
+    "Brad, 
+    Brad Simbizi, 
+    Breakfast, Club, 
+    Breakfast Club, 
+    portfolio, 
+    blog">
     <title>Blog Post 2: Interaction and the www</title>
     <link rel="stylesheet" href="../css/slideshow.css">
-    <link rel="stylesheet" href="../css/MainStyle.css">
+    <link rel="stylesheet" href="../css/homepage links.css">
+    <link rel="stylesheet" href="../css/FooterStyling.css">
 
+    <script type="application/Id+json">
+        {
+            "@content": "https://wits-digital-arts-interactive-media.github.io/WSOA3028_2438270/"
+            "@type": "portfolio website",
+            "headline": "Brad's portfolio Blog Posts",
+            "author":[{
+                "@type": "Person",
+                "name":"Brad Simbizi",
+                "url": "https://wits-digital-arts-interactive-media.github.io/WSOA3028_2438270/"
+            }]
+        }
+    </script>
 </head>
 <body>
     <header>
+        <img class="logo" src="../Images/frame0006.png" alt="Website logo" title="Portfolio website logo">
         <nav>
             
         </nav>
     </header>
 
     <main>
-        <article class="wrapper-main" class="h-entry">
+        <article class="article" class="h-entry">
             <h1 class="p-name">Blog Post 2: Interaction and the www</h1>
             <p>
                 by
@@ -30,16 +52,23 @@
                 <br>
                 This blog looks at my folder structure, my initial wireframe ideas, some inspirational       websites and a look at interaction design.
             </p>
+            <br>
+            <br>
 
             <h2>Discuss your folder structure and URL scheme. Outline your decision-making:</h2>
+            <br>
+
             <p> 
                 As it is, my folder structure is simple. The image folder will hold the images I want to add to the page, while the JavaScript and CSS folders are empty, as of right now. There’s a folder called “pages” mainly because I had planned on placing the index, the blog, the portfolio, and essay html files into that folder. Less for functional reasons, but more for organizational purposes. This was until Hanli mentioned that the index must be the root or in the root (might be a bit unclear about that). After she said this, I got a bit scared to put the index inside of a different folder in case it renders the webpage unusable.In terms of the URL scheme, I am yet to customize the URL scheme. But as a reference to what I want to do, I am planning on having a clean and simple URL scheme. The ideal scheme would either be one that allows the viewer to know exactly what pages they’ve interacted with (blogposts/blogpostweek2), or one that does not overwhelm the user (Home/BlogPostWeek2). 
                 A URL scheme like that is easy to read and understand. In terms of performance, 
                 I’d strive for a URL scheme that works on the lowest bandwidth. 
                 I think it would be beneficial to not overload the website with images and text that eat up data. 
             </p>
+            <br>
 
             <h2>Website Wireframes:</h2>
+            <br>
+
             <p>
                 Here are my 1st iteration wireframes for the various pages I'll have on the website. For a more detailed look at the wireframes, please visit <a href="../Design Section/wireframe1.html" target="_blank" rel="noopener noreferrer">Wireframes 1 - Desktop (version 1)</a>
             </p>
@@ -126,14 +155,21 @@
             <br>
     
             <h2>Put in links to websites that are inspirational, and start collecting reference material here:</h2>
+            <br>
+
             <p>
                 Natalie Young <a href="https://www.natalieroseyoung.com/" target="_blank" rel="noopener noreferrer">Natalie Young Artist Website</a>
             </p>
+            <br>
+            
             <p>
                 Anat Efrati <a href="https://www.anatefrati.com/" target="_blank" rel="noopener noreferrer">Anat Efrati Artist Website</a>
             </p>
+            <br>
             
             <h2>Reflect on interaction and the www: what does interaction mean to you?:</h2>
+            <br>
+
             <p>
                 When I think about interaction, the quote by Lev Manovich. 
                 “As with digital I avoid using the word interactive in this book without qualifying it, for the same reason – 
@@ -144,8 +180,11 @@
                 This is one of the more interesting quotes I’ve read regarding interaction, and it’s also why I struggle with defining “interaction”. As Manovich states, the most basic function of working on a computer could constitute interactivity. This way of reasoning makes it slightly difficult to really pin down the meaning of interaction. It is also important to acknowledge that this is interactivity from the framework of computers. Interacting with other forms of media requires a different approach. Gonzalo Frasca also made a point that I’d like to reference. When it comes to text-based media, the act of simply turning a page cannot be seen as interaction as the text is not being modified. 
                 Therefore, a happy medium would be something that combines the thoughts of Gonzalo Frasca and Espen Aarseth, who suggested the use of the word ergodic instead, describing ergodic literature as text that requires “nontrivial effort is required to allow the reader to traverse the text.”
             </p>
+            <br>
 
             <h2>Reflection on the door design video:</h2>
+            <br>
+
             <p>
                 The video about design was very insightful and thought provoking. 
                 Don Norman’s take on design with functionality in mind is very useful to remember. 
@@ -153,13 +192,25 @@
                 The explanation of how to use the item is embedded in its design. 
             </p>
             <br>
+            
             <button class="button" onclick="scrollToTop()">Scroll To Top</button>
         </article>
     </main>
-    <footer class="footer">
-        Breakfast Kitchen
-        <br>
-        "Bread" Simbizi
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="index.html">Blog</a></li>
+            <li><a href="../portfolio/index.html">Portfolio</a></li>
+            <li><a href="../Design Section/index.html">Design Section</a></li>
+            <li><a href="../profile/index.html">About</a></li>
+        </ul>
+        <p>2024 Brad Portfolio Website | All Rights Reserved</p>
     </footer>
 
     <script src="../scripts/back to top.js"></script>

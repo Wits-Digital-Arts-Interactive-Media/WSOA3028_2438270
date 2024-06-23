@@ -13,7 +13,6 @@
 
 .prev, .next{
     cursor:pointer;
-    position:absolute;
     top:105%;
     right:70%;
     width:auto;
@@ -54,4 +53,16 @@
     padding:10px 14px;
     position:absolute;
     bottom:300px;
+}
+@media(max-width:254px){
+    .prev, .next{
+        
+    }
+    .logo{
+        width: 200px;
+    }
+    article{
+        margin-right: 25px;
+        margin-left: 25px;
+    }
 }

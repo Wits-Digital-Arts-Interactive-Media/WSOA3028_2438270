@@ -1,11 +1,13 @@
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: justify;
+    background-color: #FFAE35;
 }
 
 .wrapper-main{
     width:1000px;
     margin:0 auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
 }
 
 .min-content{
@@ -27,13 +29,6 @@ span{
 
 .button{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.footer{
-    text-align: center;
-}
-.rowLinks{
-    display: flex;
-    flex-direction: row;
 }
 
 

@@ -1,9 +1,9 @@
 const MainmenuItems= [
     {name:"Home", href:"index.html"},
-    {name:"Blog Posts", href:"blogs/index.html"},
+    {name:"Blog", href:"blogs/index.html"},
     {name:"Essays", href:"essays/index.html"},
     {name:"Portfolio", href:"portfolio/index.html"},
-    {name:"Design section", href:"Design Section/index.html"},
+    {name:"Design", href:"Design Section/index.html"},
     {name:"Profile", href:"profile/index.html"},
 ]
 export function initialise(currentPage){
@@ -34,6 +34,7 @@ const BlogmenuItems= [
     {name:"Blog Post 7: The World in www", href:"blog-7.html"},
     {name:"Blog Post 8: Digital inequalities", href:"blog-8.html"},
     {name:"Blog Post 9: Digital Coloniality / Introduction to CSS", href:"blog-9.html"},
+    {name:"Blog Post 10: Decolonising Technology / Responsive Design", href:"blog-10.html"},
 ]
 export function initialiseBlogs(currentPage){
     const nav=document.querySelector("header > nav")
@@ -75,6 +76,9 @@ export function initialiseBackToMain(currentPage){
 
 const DesSectionmenuItems= [
     {name:"Home", href:"../index.html"},
+    {name:"Style Guide", href:"style guides.html"},
+    {name:"Implementation notes", href:"implementation notes.html"},
+    {name:" IxD process", href:"IxD process.html"},
     {name:"Wireframes 1 - Desktop (version 1)", href:"wireframe1.html"},
     {name:"Wireframes 2 - Smartphones (version 1)", href:"wireframe2.html"},
     {name:"Wireframes 3 - Desktop (version 2)", href:"wireframe3.html"},
