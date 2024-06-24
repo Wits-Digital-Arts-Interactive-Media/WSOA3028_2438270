@@ -12,9 +12,10 @@
 }
 
 .prev, .next{
+    position: absolute;
     cursor:pointer;
-    top:105%;
-    right:70%;
+    top:150px;
+    right:105%;
     width:auto;
     margin-top:-22px;
     padding:16px;
@@ -37,13 +38,12 @@
 }
 
 .text{
+    position:relative;
     color:#000000;
     font-size:15px;
     padding:8px 12px;
-    position:absolute;
-    top:310px;
-    right:150px;
-    width:1000px;
+    right:200px;
+    width:auto;
     text-align:center;
 }
 
@@ -52,17 +52,22 @@
     font-size:20px;
     padding:10px 14px;
     position:absolute;
-    bottom:300px;
 }
-@media(max-width:254px){
+@media(max-width:950px){
     .prev, .next{
-        
+        top:130px;
     }
-    .logo{
-        width: 200px;
+    .text{
+        right:170px;
     }
-    article{
-        margin-right: 25px;
-        margin-left: 25px;
+}
+@media(max-width:400px){
+    .prev, .next{
+        top:50px;
+        font-size: 14px;
+    }
+    .text{
+        right:60px;
+        font-size: 10px;
     }
 }

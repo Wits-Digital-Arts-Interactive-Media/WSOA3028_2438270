@@ -25,16 +25,16 @@ export function initialise(currentPage){
 
 const BlogmenuItems= [
     {name:"Home", href:"../index.html"},
-    {name:"Blog Post 1: Imagining the Internet", href:"blog-1.html"},
-    {name:"Blog Post 2: Interaction and the www", href:"blog-2.html"},
-    {name:"Blog Post 3: Interaction Design for the Web", href:"blog-3.html"},
-    {name:"Blog Post 4: The IxD Process", href:"blog-4.html"},
-    {name:"Blog Post 5: The Ethics of UI & UX Practice", href:"blog-5.html"},
-    {name:"Blog Post 6: Internet, Society and Design Justice", href:"blog-6.html"},
-    {name:"Blog Post 7: The World in www", href:"blog-7.html"},
-    {name:"Blog Post 8: Digital inequalities", href:"blog-8.html"},
-    {name:"Blog Post 9: Digital Coloniality / Introduction to CSS", href:"blog-9.html"},
-    {name:"Blog Post 10: Decolonising Technology / Responsive Design", href:"blog-10.html"},
+    {name:"Blog 1: Imagining the Internet", href:"blog-1.html"},
+    {name:"Blog 2: Interaction and the www", href:"blog-2.html"},
+    {name:"Blog 3: Interaction Design for the Web", href:"blog-3.html"},
+    {name:"Blog 4: The IxD Process", href:"blog-4.html"},
+    {name:"Blog 5: The Ethics of UI & UX Practice", href:"blog-5.html"},
+    {name:"Blog 6: Internet, Society & Design Justice", href:"blog-6.html"},
+    {name:"Blog 7: The World in www", href:"blog-7.html"},
+    {name:"Blog 8: Digital inequalities", href:"blog-8.html"},
+    {name:"Blog 9: Digital Coloniality / CSS intro", href:"blog-9.html"},
+    {name:"Blog 10: Decolonising Technology", href:"blog-10.html"},
 ]
 export function initialiseBlogs(currentPage){
     const nav=document.querySelector("header > nav")
@@ -76,8 +76,6 @@ export function initialiseBackToMain(currentPage){
 
 const DesSectionmenuItems= [
     {name:"Home", href:"../index.html"},
-    {name:"Style Guide", href:"style guides.html"},
-    {name:"Implementation notes", href:"implementation notes.html"},
     {name:" IxD process", href:"IxD process.html"},
     {name:"Wireframes 1 - Desktop (version 1)", href:"wireframe1.html"},
     {name:"Wireframes 2 - Smartphones (version 1)", href:"wireframe2.html"},
@@ -103,7 +101,8 @@ export function initialiseDesSection(currentPage){
 
 const EssaymenuItems= [
     {name:"Home", href:"../index.html"},
-    {name:"Essay 1", href:"essay1.html"},
+    {name:"Essay 1: Ethics, UI, UX, and Interaction", href:"essay1.html"},
+    {name:"Essay 2: Digital Colonialism", href:"essay2.html"},
 ]
 
 export function initialiseEssay(currentPage){
@@ -125,8 +124,6 @@ export function initialiseEssay(currentPage){
 
 const PortmenuItems= [
     {name:"Home", href:"../index.html"},
-    {name:"Burger", href:"burger.html"},
-    {name:"Bread", href:"bread.html"},
 ]
 
 export function initialisePortfolio(currentPage){

@@ -4,31 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="2438270 Interactive Media Webpge">
-    <meta name="author" content="Brad Simbizi"> 
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="../css/MainStyle.css">
+    <meta name="description" content="2438270 Interactive Media Webpage">
+    <meta name="description" content="Website Portfolio page">
+    <meta name="description" content="Brad's website portfolio">
+    <meta name="author" content="Brad Simbizi">
+    <meta name="Keywords" content=
+    "Brad, 
+    Brad Simbizi, 
+    Breakfast, Club, 
+    Breakfast Club, 
+    portfolio, 
+    blog"> 
+    <title>2438270 Interactive Media Webpage Portfolio</title>
+    <link rel="stylesheet" href="../css/slideshow.css">
+    <link rel="stylesheet" href="../css/homepage links.css">
+    <link rel="stylesheet" href="../css/FooterStyling.css">
+
+    <script type="application/Id+json">
+        {
+            "@content": "https://wits-digital-arts-interactive-media.github.io/WSOA3028_2438270/"
+            "@type": "portfolio website",
+            "headline": "Brad's portfolio Portfolio page",
+            "author":[{
+                "@type": "Person",
+                "name":"Brad Simbizi",
+                "url": "https://wits-digital-arts-interactive-media.github.io/WSOA3028_2438270/"
+            }]
+        }
+    </script>
 </head>
 <body>
     <header>
+        <img class="logo" src="../Images/frame0006.png" alt="Website logo" title="Portfolio website logo">
+        <h1 class="p-name">Breakfast Portfolio</h1>
+        <br>
+        <p class="h-card">
+            by
+            <a class="p-author h-card" href="../profile/index.html">Brad Simbizi</a>
+        </p>
+        <br>
+        <p class="p-summary">A few silly little sketches of breakfast items</p>
         <nav>
             
         </nav>
     </header>
     <main>
-        <h1 class="p-name">Portfolio</h1>
-        <p>
-            by
-            <a class="p-author h-card" href="../profile/index.html">Brad Simbizi</a>
-        </p>
-        <p class="p-summary">These drawings are not a reflection of my mental state.</p>
+        <article class="article">
+            <div class="slideshow-container">
+                <div class="mySlide">
+                    <img src="../Images/frame0001.png" alt="Waffle Sketch" width="60%" title="Waffle">
+                    <div class="text">Waffle</div>
+                </div>
+    
+                <div class="mySlide">
+                    <img src="../Images/frame0000.png" alt="Burger Sketch" width="60%" title="Burger">
+                    <div class="text">Burger</div>
+                </div>
+    
+                <div class="mySlide">
+                    <img src="../Images/frame0002.png" alt="Bacon Sketch" width="60%" title="Bacon">
+                    <div class="text">Bacon</div>
+                </div>
+    
+                <div class="mySlide">
+                    <img src="../Images/frame0003.png" alt="Fish tail Sketch" width="60%" title="Fish Tailin'">
+                    <div class="text">Fish Tailin'</div>
+                </div>
+    
+                <div class="mySlide">
+                    <img src="../Images/frame0004.png" alt="Bread Sketch" width="60%" title="Bread, am I right?">
+                    <div class="text">Bread, am I right?</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                <a class="next" onclick="plusSlides(1)">&#10095</a>
+            </div>
+        </article>
     </main>
-    <footer class="footer">
-        Breakfast Kitchen
-        <br>
-        "Bread" Simbizi
+
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../blogs/index.html">Blog</a></li>
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="../Design Section/index.html">Design Section</a></li>
+            <li><a href="../profile/index.html">About</a></li>
+        </ul>
+        <p>2024 Brad Portfolio Website | All Rights Reserved</p>
     </footer>
     
+
+    <script src="../scripts/slideshow.js"></script>
     <script type="module" >import{initialisePortfolio} from "../scripts/menu.js"
         initialisePortfolio("Home")</script>
 </body>
